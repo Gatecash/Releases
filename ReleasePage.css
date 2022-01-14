@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('Roboto-Thin.ttf') format('truetype');
+  }
+
+body{
+    background-color: #D0D9DF;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 17px;   
+}
+a{
+    text-decoration: none;
+}
+ul{
+    color: #11D0AE;
+}
+
+.fade{
+    color: #FAFAFB;
+}
+.fade:hover{
+    color: #0581E0;
+}
+
+.fadeReverse{
+    color: #0581E0;
+}
+.fadeReverse:hover{
+    color: #334052;
+}
+
+.itens {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 47px;
+  }
+  
+.listapadding{
+    padding: 0;
+    margin: 20px;
+    padding-left: 0px;
+}
+
+.tabLista{
+    padding-left: 20px;
+}
+
+.itensLaterais{
+    position:absolute;
+    text-align: center;
+    left: 30%;
+}
+/* 1518 X 1070 */
+
+#rectangleCabecalho{
+    position:absolute;
+
+    width: 100%; /*1518px*/
+    height: 13%; /*95px*/
+    left: 1px;
+    top: 0px;
+    
+    background: #0581E0;
+}
+
+#rectangleInfos{
+    position: absolute;
+    height: auto;
+    width: 80.39%; /*1118px; 73.65%*/
+    left: 0.87%; /*25px;*/
+    top: 14.5%; /*120px;*/
+    border-radius: 10px;
+
+    background: #FFFFFF;
+}
+
+/*maior + menor = 95%*/
+
+#rectangleLateral{
+    position: fixed;
+    width: 17%;
+    height:80.5vh;
+    /*float: left;*/
+    overflow:auto;
+    /*height: 50%;*/
+    right: 0.87%;
+    top: 14.5%;
+    border-radius: 10px;
+    background: #334052;
+}
+
+#imageCabecalho{  
+    margin: 0 auto;
+    position:absolute;
+    right: 1.5%; /*31px;*/
+    top: 12%; /*10px;*/
+    height: 125%;
+}
+
+#line{
+    position: absolute;
+    /*height: 94%;*/
+    border-right: 7px solid #11D0AE;  
+    top: 3%; /*30px;*/
+    bottom: 3%;
+    left: 7px; /*25px;*/
+    border-radius: 2000px;
+}
+
+.fonteThin{
+    font-family: 'Roboto-Thin';
+}
+.fonteLight{
+    font-family: 'Roboto-Light';
+}
+.fonteItalic{
+    font-family: 'Roboto-Italic';
+}
