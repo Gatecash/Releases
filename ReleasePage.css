@@ -60,13 +60,12 @@ ul{
     text-align: center;
     left: 30%;
 }
-/* 1518 X 1070 */
 
 #rectangleCabecalho{
     position:absolute;
 
-    width: 100%; /*1518px*/
-    height: 13%; /*95px*/
+    width: 100%;
+    height: 13%;
     left: 1px;
     top: 0px;
     
@@ -76,23 +75,19 @@ ul{
 #rectangleInfos{
     position: absolute;
     height: auto;
-    width: 80.39%; /*1118px; 73.65%*/
-    left: 0.87%; /*25px;*/
-    top: 14.5%; /*120px;*/
+    width: 80.39%;
+    left: 0.87%;
+    top: 14.5%;
     border-radius: 10px;
 
     background: #FFFFFF;
 }
 
-/*maior + menor = 95%*/
-
 #rectangleLateral{
     position: fixed;
     width: 17%;
     height:80.5vh;
-    /*float: left;*/
     overflow:auto;
-    /*height: 50%;*/
     right: 0.87%;
     top: 14.5%;
     border-radius: 10px;
@@ -102,18 +97,17 @@ ul{
 #imageCabecalho{  
     margin: 0 auto;
     position:absolute;
-    right: 1.5%; /*31px;*/
-    top: 12%; /*10px;*/
+    right: 1.5%;
+    top: 12%;
     height: 125%;
 }
 
 #line{
     position: absolute;
-    /*height: 94%;*/
     border-right: 7px solid #11D0AE;  
-    top: 3%; /*30px;*/
+    top: 3%;
     bottom: 3%;
-    left: 7px; /*25px;*/
+    left: 7px;
     border-radius: 2000px;
 }
 
